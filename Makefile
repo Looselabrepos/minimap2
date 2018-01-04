@@ -14,7 +14,7 @@ else
 endif
 else
     OBJS+=ksw2_extz2_neon.o ksw2_extd2_neon.o ksw2_exts2_neon.o
-    CFLAGS+=-D_FILE_OFFSET_BITS=64 -mfpu=neon -fsigned-char
+    CFLAGS+=-D_FILE_OFFSET_BITS=64 -fsigned-char
     INCLUDES+=-I sse2neon
 endif
 
